@@ -1,4 +1,3 @@
-
 package org.codehaus.mojo.codenarc
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -367,7 +366,7 @@ log4j.appender.CONSOLE.layout.ConversionPattern=%d{ISO8601} %c{1} [%t] %p - %m%n
             log.debug( "antBasedir => ${antBasedir}")
             arg(value: antBasedir)
 
-            def antTitle='-title="' + this.project.name + '"'
+            def antTitle="-title='" + this.project.name + "'"
             log.debug( "antTitle => ${antTitle}" )
             arg(value: antTitle)
 
